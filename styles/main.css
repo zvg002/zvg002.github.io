@@ -18,3 +18,9 @@ header h2 {
     color: cadetblue;
     text-indent: 30px;
 }
+header img{
+    float: left;
+}
+main{
+    clear: left;
+}
