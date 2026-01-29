@@ -21,6 +21,9 @@ header h2 {
 header img{
     float: left;
 }
+.shadow{
+    text-shadow: 2px 2px 2px rgb(rgb(150, 60, 60), rgb(23, 73, 23), rgb(8, 8, 153))
+}
 main{
     clear: left;
 }
