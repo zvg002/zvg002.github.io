@@ -9,8 +9,8 @@ body {
     border:1px solid black;
     border-radius: 25px;
     box-shadow: 5px 5px 0 0;
-    background-image: img src "images/shsu_logo.webp"
-    background-position: right;
+    background-image: url ("images/shsu_logo.webp")
+    background-position right;
     background-repeat: repeat-y;
     background-attachment: fixed;
 }
@@ -41,7 +41,7 @@ h3 {
     margin-top: 3em;
     font-size: 105%;
     border: 5px
-    border-radius: 20px;
+    border-radius 20px;
     box-shadow: 3px 3px 4px 4px red;
     padding: 1em;
 }
