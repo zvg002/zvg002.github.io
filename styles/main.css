@@ -41,7 +41,7 @@ h3 {
     margin-top: 3em;
     font-size: 105%;
     border: 5px
-    border-radius 20px;
+    border-radius: 20px;
     box-shadow: 3px 3px 4px 4px red;
     padding: 1em;
 }
