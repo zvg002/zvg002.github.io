@@ -13,7 +13,6 @@ body {
     background-position: right;
     background-repeat: repeat-y;
     background-attachment: fixed;
-
 }
 a:hover, a:focus {
     font-style: italic;
@@ -45,7 +44,6 @@ h3 {
     border-radius: 20px;
     box-shadow: 3px 3px 4px 4px red;
     padding: 1em;
-
 }
 list {
     line-height: 1.5em;
