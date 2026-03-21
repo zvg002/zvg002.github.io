@@ -1,5 +1,11 @@
 .menu {
     overflow: hidden;
+    color: white;
+    background: blue;
+    padding: 15px 40px;
+    border: 1px solid;
+    font-weight: bold;
+    text-align: center;
 }
 article {
     width: 70%;
