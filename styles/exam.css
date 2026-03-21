@@ -154,7 +154,7 @@ article {
     border-right: none;
 }
 aside {
-    position: fixed;
+    position: static;
     width: 100%;
     border-left: none;
     border-top: 3px solid #2f2f2f;
