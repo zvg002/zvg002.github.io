@@ -1,0 +1,8 @@
+.menu {
+    overflow: hidden;
+}
+article {
+    width: 70%;
+    float: left;
+    padding: 20px;
+}
