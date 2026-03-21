@@ -10,7 +10,8 @@
 }
 #nav_menu ul li a {
     font-weight: bold;
-    color: blue; }
+    color: blue; 
+}
 #nav_menu ul li a.current 
     { text-decoration: none; }
 
