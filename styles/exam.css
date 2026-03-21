@@ -162,7 +162,7 @@ aside {
     top: auto;
 }
   nav ul {
-    flex-direction: column;
+    flex-direction: horizontal;
   }
 
   nav li {
