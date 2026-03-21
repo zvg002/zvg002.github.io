@@ -28,7 +28,7 @@ nav ul {
     justify-content: center;
 }
 nav li { 
-    border-right: none;
+    border-right: 2px solid white;
     margin: 0.5px;
 }
 
