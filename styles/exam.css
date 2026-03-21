@@ -55,7 +55,7 @@ main{
 
 article{
     width: 75%;
-    padding: 25px 30px;
+    padding-right: 260px;
     border-right: 3px solid  #2f2f2f;
     column-count: 3;
     column-gap: 30px;
