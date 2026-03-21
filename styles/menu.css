@@ -1,5 +1,9 @@
-.menu {
-    overflow: hidden;
+.top-nav{
+ display: flex;
+ width: fit-content;
+ margin: 20px 0;
+}
+.top-nav a {
     color: white;
     background: blue;
     padding: 15px 40px;
@@ -7,6 +11,7 @@
     font-weight: bold;
     text-align: center;
 }
+
 article {
     width: 70%;
     float: left;
