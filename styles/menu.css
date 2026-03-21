@@ -15,7 +15,7 @@
      text-decoration: none; 
     }
 #nav_menu ul li a {
-    text-align: center;
+    text-align: left;
     display: block;
     width: 170px;
     padding: 1em 0;
