@@ -129,3 +129,51 @@ aside a {
 aside a:hover {
   text-decoration: underline;
 }
+footer {
+  border-top: 3px solid #2f2f2f;
+  text-align: center;
+  padding: 18px;
+  background-color: rgba(53, 72, 36, 0.95);
+  color: white;
+}
+footer a {
+  color: #ffe9a8;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+article {
+    width: 100%;
+    border-right: none;
+  }
+
+  aside {
+    position: static;
+    width: 100%;
+    border-left: none;
+    border-top: 3px solid #2f2f2f;
+    right: auto;
+    top: auto;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav li {
+    border-right: none;
+    border-bottom: 1px solid #d8d8d8;
+  }
+
+  nav li:last-child {
+    border-bottom: none;
+  }
+
+  .float-img {
+    float: none;
+    display: block;
+    margin: 15px auto;
+  }
