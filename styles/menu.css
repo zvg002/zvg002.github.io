@@ -12,10 +12,6 @@
     font-weight: bold;
     text-align: center;
 }
-.top-nav a:hover{
-    background: darkblue;
-}
-
 article {
     width: 70%;
     float: left;
