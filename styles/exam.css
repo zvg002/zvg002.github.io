@@ -35,13 +35,14 @@ nav li :last-child{
     border-right: none;
 }
 nav a {
-    display: block;
+    display: inline-block;
     padding: 16 px 28 px;
     color: white;
     text-decoration: none;
     font-weight: bold;
     letter-spacing: 0.5px;
     border-radius: 3px;
+    margin: 0 18px;
 }
  nav a :hover {
     background-color: #657f4a;
