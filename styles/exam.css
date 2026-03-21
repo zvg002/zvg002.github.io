@@ -34,6 +34,39 @@ nav li {
 nav li :last-child{
     border-right: none;
 }
+nav a {
+    display: block;
+    padding: 16 px 28 px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
  nav a :hover {
     background-color: #657f4a;
+
  }
+main{
+    overflow: hidden;
+  position: relative;
+  min-height: 1000px;
+  background-color: rgba(250, 245, 235, 0.92);
+}
+
+article{
+    width: 75%;
+    padding: 25px 30px;
+    border-right: 3px solid  #2f2f2f;
+}
+
+aside {
+      width: 20%;
+  position: fixed;
+  top: 120px;
+  right: 4.5%;
+  padding: 20px 15px;
+  background-color: rgba(236, 227, 203, 0.95);
+  border-left: 3px solid #2f2f2f;
+  border-bottom: 3px solid #2f2f2f;
+  border-top: 3px solid #2f2f2f;
+}
