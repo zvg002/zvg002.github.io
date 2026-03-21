@@ -17,6 +17,7 @@ body{
 nav {
     border-bottom: 3px solid #2f2f2f;
     background-color: rgba( 53, 72, 36, .95);
+    padding: 10px 0;
 }
 
 nav ul {
@@ -24,9 +25,11 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
+    justify-content: center;
 }
 nav li { 
     border-right: none;
+    margin: 0.5px;
 }
 
 nav li :last-child{
@@ -39,6 +42,7 @@ nav a {
     text-decoration: none;
     font-weight: bold;
     letter-spacing: 0.5px;
+    border-radius: 3px;
 }
  nav a :hover {
     background-color: #657f4a;
