@@ -13,8 +13,3 @@
 #nav_menu ul li a.current 
     { text-decoration: none; }
 
-article {
-    width: 70%;
-    float: left;
-    padding: 20px;
-}
