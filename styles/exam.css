@@ -70,3 +70,29 @@ aside {
   border-bottom: 3px solid #2f2f2f;
   border-top: 3px solid #2f2f2f;
 }
+h1 {
+  margin-top: 0;
+  font-size: 2.3rem;
+  border-bottom: 2px solid #555;
+  padding-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin-top: 35px;
+  border-bottom: 1px solid #777;
+  padding-bottom: 6px;
+}
+
+/* paragraphs */
+p {
+  text-align: justify;
+  line-height: 1.8;
+  margin-bottom: 22px;
+}
+
+p::first-letter {
+  font-size: 2.3rem;
+  font-weight: bold;
+  font-style: italic;
+}
