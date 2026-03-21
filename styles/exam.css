@@ -16,7 +16,8 @@ body{
 nav {
     border-bottom: 3px solid #2f2f2f;
     background-color: rgba( 53, 72, 36, .95);
-    padding: 10px 0;
+    padding: 15px 0;
+    text-align: center;
 }
 
 nav ul {
