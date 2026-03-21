@@ -168,7 +168,7 @@ article {
   }
 
   .float-img {
-    float: none;
+    float: right;
     display: block;
     margin: 15px auto;
   }
