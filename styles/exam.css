@@ -96,3 +96,38 @@ p::first-letter {
   font-weight: bold;
   font-style: italic;
 }
+.float-img {
+  float: right;
+  width: 260px;
+  margin: 0 0 15px 20px;
+  border: 3px solid #444;
+  padding: 4px;
+  background-color: white;
+}
+aside h3 {
+  margin-top: 0;
+  text-align: center;
+  border-bottom: 2px solid #555;
+  padding-bottom: 8px;
+}
+
+aside ul {
+  list-style-type: square;
+  padding-left: 22px;
+  margin: 15px 0 0 0;
+}
+aside li {
+  margin: 12px 0;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #999;
+}
+
+aside a {
+  text-decoration: none;
+  color: #2d3b18;
+  font-weight: bold;
+}
+
+aside a:hover {
+  text-decoration: underline;
+}
