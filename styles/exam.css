@@ -155,14 +155,6 @@ article {
     width: 100%;
     border-right: none;
 }
-aside {
-    position: static;
-    width: 100%;
-    border-left: none;
-    border-top: 3px solid #2f2f2f;
-    right: auto;
-    top: auto;
-}
   nav ul {
     flex-direction: horizontal;
   }
