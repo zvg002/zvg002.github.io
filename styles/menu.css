@@ -1,3 +1,7 @@
+#nav_menu {
+    width: 700px;
+    margin: 0 auto;
+}
 #nav_menu ul {
     list-style-type: none;
     padding: 0; 
