@@ -169,8 +169,3 @@ article {
     border-bottom: none;
   }
 
-  .float-img {
-    float: right;
-    display: block;
-    margin: 15px auto;
-  }
