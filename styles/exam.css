@@ -102,11 +102,11 @@ p::first-letter {
 }
 .float-img {
   float: left;
-  width: 200px;
   margin: 10px 15px 10px 0;
   border: 3px solid #444;
   padding: 4px;
   background-color: white;
+  margin-left: 2em;
 }
 aside h3 {
   margin-top: 0;
