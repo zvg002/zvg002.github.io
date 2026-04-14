@@ -8,6 +8,7 @@ html, body {
     font-family: Verdana, Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
+
 .top-nav {
     display: flex;
     flex-direction: row;
@@ -70,8 +71,10 @@ html, body {
 }
 
 #menu-toggle:checked + .menu-button-container .menu-button::before {
-    margin-top: 0px;
-    transform: rotate(405deg);
+
+
+    margin-top: 0;
+    transform: rotate(45deg);
 }
 
 #menu-toggle:checked + .menu-button-container .menu-button {
@@ -79,9 +82,12 @@ html, body {
 }
 
 #menu-toggle:checked + .menu-button-container .menu-button::after {
-    margin-top: 0px;
-    transform: rotate(-405deg);
+
+
+    margin-top: 0;
+    transform: rotate(-45deg);
 }
+
 section a {
     text-decoration: none;
     color: white;
@@ -91,6 +97,7 @@ section a {
 a.current {
     text-decoration: underline;
 }
+
 article {
     padding: 0 1em;
 }
@@ -109,11 +116,13 @@ article img {
     width: 100%;
     max-width: 760px;
 }
+
 footer {
     border-top: 2px solid #f46b45;
     text-align: center;
     font-size: .8em;
 }
+
 @media (max-width: 700px) {
 
     .menu-button-container {
@@ -121,15 +130,49 @@ footer {
     }
 
     .menu {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        background-color: #222;
         position: absolute;
-        top: 0;
-        margin-top: 50px;
+        top: 50px;
         left: 0;
-        flex-direction: column;
         width: 100%;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+
+
 
     #menu-toggle ~ .menu li {
         height: 0;
@@ -139,12 +182,16 @@ footer {
         transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
     }
 
+
+
     #menu-toggle:checked ~ .menu li {
         border: 1px solid #333;
         height: 2.5em;
         padding: 0.5em;
         transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
     }
+
+
 
     .menu > li {
         display: flex;
@@ -156,6 +203,10 @@ footer {
         background-color: #222;
     }
 
+
+
+
+
     .menu > li:not(:last-child) {
         border-bottom: 1px solid #444;
     }
@@ -166,6 +217,10 @@ footer {
 
     article p {
         font-size: .8em;
+    }
+
+    article img {
+        height: auto;
     }
 
     footer {
