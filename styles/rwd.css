@@ -8,9 +8,6 @@ html, body {
     font-family: Verdana, Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
-
-/*---------------------------------------------------------------*/
-
 .top-nav {
     display: flex;
     flex-direction: row;
@@ -85,10 +82,6 @@ html, body {
     margin-top: 0px;
     transform: rotate(-405deg);
 }
-
-/*----end of menu*/
-
-/* Links */
 section a {
     text-decoration: none;
     color: white;
@@ -98,8 +91,6 @@ section a {
 a.current {
     text-decoration: underline;
 }
-
-/* Article */
 article {
     padding: 0 1em;
 }
