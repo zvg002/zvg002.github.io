@@ -68,15 +68,35 @@ table.third tbody tr:nth-child(odd) {
 table.third tbody tr:last-child {
     border-bottom: 2px solid orangered;
 }
-@media only screen and (max-width: 425px) {
 
-    th, td {
-        display: block;
-    }
-
-    thead, 
-    td.number {
-        display: none;
-        padding: 0;
-    }
+/* Add caption styling */
+caption {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
 }
+
+/* Update responsive design */
+@media only screen and (max-width: 425px) {
+  table {
+    border: none;
+  }
+  th, td {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 0.5em;
+    border: none;
+    border-bottom: 1px solid #ddd;
+  }
+  thead {
+    display: none;
+  }
+  td::before {
+    content: attr(data-label);
+    font-weight: bold;
+    display: inline-block;
+    width: 120px;
+  }
+}
+
