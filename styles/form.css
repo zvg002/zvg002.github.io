@@ -1,5 +1,6 @@
 fieldset {
-    width: 40em;
+    width: 100%;
+    max-width: 40em;
     margin-top: 1em;
     margin-bottom: 1em;
     padding-top: .5em;
@@ -25,6 +26,7 @@ label {
 input, select {
     margin-left: .5em;
     margin-bottom: .5em;
+    width: calc(100% - 10em);
 }
 
 input:required {
@@ -36,6 +38,7 @@ input:valid {
 }
 
 input:invalid {
+    border: 1px solid red;
     box-shadow: none;
 }
 
@@ -45,9 +48,19 @@ br {
 
 textarea {
     height: 5em;
-    width: 35em;
+    width: 100%;
+    max-width: 35em;
 }
 
 #buttons input {
     width: 10em;
+    padding: .5em;
+    background-color: #931420;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#buttons input:hover {
+    background-color: #6a0f16;
 }
